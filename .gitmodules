@@ -7,3 +7,9 @@
 [submodule "bases/aurora-grundig"]
 	path = bases/aurora-grundig
 	url = git@github.com:nsanmartin/aurora-grundig.git
+[submodule "inge1/catedra"]
+	path = inge1/catedra
+	url = https://github.com/UBA-FCEN-IngSoft1/2019-1c.git
+[submodule "inge1/ooo"]
+	path = inge1/ooo
+	url = git@github.com:nsanmartin/ooo.git
