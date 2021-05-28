@@ -1,0 +1,3 @@
+[submodule "Ayudantia/algo1"]
+	path = Ayudantia/algo1
+	url = git@git.exactas.uba.ar:materias/algo1.git
