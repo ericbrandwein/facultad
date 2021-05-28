@@ -28,3 +28,6 @@
 [submodule "redes/1337h4x0r5"]
 	path = redes/1337h4x0r5
 	url = git@github.com:ericbrandwein/1337h4x0r5.git
+[submodule "tesis"]
+	path = tesis
+	url = git@github.com:Agusanso7/tesis-lipo.git
