@@ -1,0 +1,16 @@
+Errores:
+
+Página 50:
+- Finitud: No pide que el estado q sea alcanzable del estado inicial.
+
+Página 59:
+- En la primer fórmula, alpha tiene que estar en T*, no en T. Además estaría más lindo si el sii
+fuese un \Iff.
+- En la fórmula del final de la hoja, debería ser \gamma -> \beta, no \beta -> \gamma.
+
+Página 62:
+- La demostración del lema de la altura dice que |\alpha| = a|\gamma|, cuando en realidad es
+|\alpha| <= a|\gamma|.
+
+Página 64:
+- Primero dice que n = |V| + 1 y después que n = a^{|V| + 1}.

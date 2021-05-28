@@ -34,3 +34,6 @@
 [submodule "thinness"]
 	path = thinness
 	url = git@github.com:ericbrandwein/thinness.git
+[submodule "tleng/tp"]
+	path = tleng/tp
+	url = git@github.com:ericbrandwein/cara-de-cocou.git
