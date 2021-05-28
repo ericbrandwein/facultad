@@ -4,3 +4,6 @@
 [submodule "arq-web/ArqWeb"]
 	path = arq-web/ArqWeb
 	url = git@github.com:mmaximiliano/ArqWeb.git
+[submodule "bases/aurora-grundig"]
+	path = bases/aurora-grundig
+	url = git@github.com:nsanmartin/aurora-grundig.git
