@@ -31,3 +31,6 @@
 [submodule "tesis"]
 	path = tesis
 	url = git@github.com:Agusanso7/tesis-lipo.git
+[submodule "thinness"]
+	path = thinness
+	url = git@github.com:ericbrandwein/thinness.git
