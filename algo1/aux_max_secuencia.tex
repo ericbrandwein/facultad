@@ -1,0 +1,14 @@
+$$
+aux\ max(nums: seq<R>) =
+    sumaDeTodosLosMaximos(nums) / cantidadDeMaximos(nums);\\
+aux\ sumaDeTodosLosMaximos(nums: seq<R>) =
+    \sum_{i = 0}^{|nums| - 1} if\ esElMayor(nums, i)\ then\ nums[i]\ else\ 0\ fi;\\
+aux\ cantidadDeMaximos(nums: seq<R>) =
+    \sum_{i = 0}^{|nums| - 1} if\ esElMayor(nums, i)\ then\ 1\ else\ 0\ fi;\\
+pred\ esElMayor(nums: seq<R>, indiceMayor: Z) \{\\
+    (\forall otroIndice \in Z) (\\
+        (0 <= otroIndice < |nums| \land otroIndice \neq indiceMayor) \rightarrow_L\\
+        nums[otroIndice] <= nums[indiceMayor]\\
+    )\\
+\}
+$$
