@@ -19,3 +19,9 @@
 [submodule "inge2/talleres/3"]
 	path = inge2/talleres/3
 	url = git@github.com:ericbrandwein/inge2-taller3.git
+[submodule "reconocimiento-de-patrones/lassie"]
+	path = reconocimiento-de-patrones/lassie
+	url = https://git.exactas.uba.ar/nsanmartin/lassie.git
+[submodule "reconocimiento-de-patrones/reconocimiento-de-patrones"]
+	path = reconocimiento-de-patrones/reconocimiento-de-patrones
+	url = https://git.exactas.uba.ar/nsanmartin/reconocimiento-de-patrones.git
