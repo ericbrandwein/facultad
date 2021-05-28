@@ -1,0 +1,4 @@
+\babel@toc {spanish}{}
+\beamer@sectionintoc {1}{¿Por qué lo queremos?}{2}{0}{1}
+\beamer@sectionintoc {2}{¿Se puede hacer?}{3}{0}{2}
+\beamer@sectionintoc {3}{Referencias}{17}{0}{3}

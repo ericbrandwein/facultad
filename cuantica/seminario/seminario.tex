@@ -1,0 +1,140 @@
+\documentclass[12pt]{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{mathtools}
+\usepackage{relsize}
+\usepackage{amsmath}
+
+\usetheme{Copenhagen}
+\setbeamertemplate{bibliography item}{\insertbiblabel}
+
+\newcommand{\bra}[1]{\langle #1 |}
+\newcommand{\ket}[1]{| #1 \rangle}
+\newcommand{\braket}[2]{\langle #1 |#2\rangle}
+
+\title{Clonación cuántica}
+\author{Eric Brandwein}
+\institute{FCEyN - UBA}
+\date{15 de Diciembre de 2020}
+
+\begin{document}
+\frame{\titlepage}
+
+\section{¿Por qué lo queremos?}
+\begin{frame}
+    \frametitle{¿Por qué lo queremos?}
+    \begin{itemize}
+        \item \textbf{Corrección de errores}, como lo hacemos en una computadora clásica.
+        \item \textbf{Tomografía}, usando un solo estado en vez de
+        necesitando muchas copias.
+    \end{itemize}
+\end{frame}
+
+\section{¿Se puede hacer?}
+\begin{frame}
+    \frametitle{¿Se puede hacer?}
+    % Supongamos que creamos una máquina que clona estados arbitrarios.
+    % Ponele que esta máquina toma un estado cuántico en una entrada,
+    % y por otra entrada toma basura.
+    \[\mathlarger{\mathlarger{\mathlarger{
+         \ket{\psi s} \overset{U}{\longrightarrow} U\ket{\psi s} = \ket{\psi\psi}
+    }}}\]
+    % Entonces tenemos que
+
+
+\end{frame}
+
+\begin{frame}
+    \frametitle{¿Se puede hacer?}
+    Supongamos que tenemos dos estados puros, \( \ket{\psi} \) y
+    \( \ket{\varphi} \). Entonces:
+    \begin{align*}
+        U\ket{\psi s} = \ket{\psi\psi}\\
+        U\ket{\varphi s} = \ket{\varphi\varphi}
+    \end{align*}
+    \pause
+    Si tomamos el producto interno de estas dos ecuaciones, nos queda:
+    \[
+    \begin{aligned}
+        \action<+->{
+            U\ket{\psi s} \bullet U\ket{\varphi s} &=
+            \ket{\psi\psi} \bullet \ket{\varphi\varphi} \\
+        }
+        \action<+->{
+            \ket{\psi s} \bullet \ket{\varphi s} &=
+            \braket{\psi}{\varphi}\braket{\psi}{\varphi} \\
+        } % U preserva el producto interno por ser unitaria
+        \action<+->{
+            \braket{\psi}{\varphi} &=
+            (\braket{\psi}{\varphi}) ^ 2
+        }
+    \end{aligned}
+    \]
+\end{frame}
+
+\begin{frame}
+    \frametitle{¿Se puede hacer?}
+    \[\mathlarger{
+        \braket{\psi}{\varphi} =
+        (\braket{\psi}{\varphi}) ^ 2
+    }\]
+    \begin{itemize}
+        \item ¿Cuándo puede pasar esto?
+            Sólo si \( \braket{\psi}{\varphi} = 1 \) o
+            \( \braket{\psi}{\varphi} = 0 \). \pause
+        \item O sea, o \( \ket{\psi} = \ket{\varphi} \),
+            o \( \ket{\psi} \) y \( \ket{\varphi} \) son ortogonales. \pause
+        \item Es decir, nuestra máquina
+            \textbf{sólo puede clonar dos estados ortogonales.}
+            % Y esto quiere decir que no puede clonar cualquier estado
+            % en general.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \frametitle{¿Posta? ¿No podríamos hacerlo si...}
+    ...usáramos transformaciones no unitarias? \pause \textbf{No.} \cite{demo-lineal}
+
+    Hay otra demostración que no usa el hecho de que el operador es unitario, sino solo que es una transformación lineal.
+
+\end{frame}
+\begin{frame}
+    \frametitle{¿Posta? ¿No podríamos hacerlo si...}
+    ...clonásemos estados mixtos? \pause \textbf{Tampoco.} \cite{broadcast}
+
+    Hay que tener cuidado cuando se define siquiera qué es clonar un estado
+    mixto, pero igual no se puede.
+\end{frame}
+
+\begin{frame}
+    \frametitle{¿Posta? ¿No podríamos hacerlo si...}
+    ...permitiésemos que las copias no fuesen perfectas? \pause \textbf{ ¡Sí!} \cite{copying}
+    Buzek y Hillery propusieron una máquina que copia un qubit con una fidelidad de 5/6 cuando se compara un solo qubit.
+\end{frame}
+
+\section{Referencias}
+\begin{frame}
+    \frametitle{Referencias}
+    \begin{thebibliography}{9}
+        \bibitem{demo-lineal}
+        W. K. Wootters and W. H. Zurek. A single quantum cannot be cloned.
+        Nature, 299:802–803, 1982
+
+        \bibitem{broadcast}
+        H.Barnum, C.M.Caves, C.A.Fuchs, R. Jozsa, and B. Schumacher. Noncommuting mixed states cannot be broadcast. Phys. Rev. Lett.,  76(15):2828–2821, 1996. arXive e-print quantph/9511010.
+
+        \bibitem{copying}
+        Bužek, V. and Hillery, M. (1996-09-01). Quantum copying: Beyond the no-cloning theorem. Physical Review A. 54 (3): 1844–1852. arXiv:quant-ph/9607018
+    \end{thebibliography}
+
+\end{frame}
+
+\section{}
+\begin{frame}
+    \frametitle{¡Gracias!}
+    \center ¿Preguntas?
+\end{frame}
+
+
+
+\end{document}
