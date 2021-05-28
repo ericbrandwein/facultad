@@ -25,3 +25,6 @@
 [submodule "reconocimiento-de-patrones/reconocimiento-de-patrones"]
 	path = reconocimiento-de-patrones/reconocimiento-de-patrones
 	url = https://git.exactas.uba.ar/nsanmartin/reconocimiento-de-patrones.git
+[submodule "redes/1337h4x0r5"]
+	path = redes/1337h4x0r5
+	url = git@github.com:ericbrandwein/1337h4x0r5.git
