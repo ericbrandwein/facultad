@@ -13,3 +13,9 @@
 [submodule "inge1/ooo"]
 	path = inge1/ooo
 	url = git@github.com:nsanmartin/ooo.git
+[submodule "inge2/talleres/2"]
+	path = inge2/talleres/2
+	url = git@github.com:ericbrandwein/inge2-taller2.git
+[submodule "inge2/talleres/3"]
+	path = inge2/talleres/3
+	url = git@github.com:ericbrandwein/inge2-taller3.git

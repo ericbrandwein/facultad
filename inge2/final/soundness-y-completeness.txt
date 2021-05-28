@@ -1,0 +1,11 @@
+Soundness y Completeness
+
+Un análisis es sound si todas las líneas que dice que no hay error efectivamente no hay error
+<=>
+en ninguna línea que diga que no hay error puede haber error
+<=>
+Dice que puede haber error en todas las líneas en las que puede haber error
+
+Un análisis es complete si reporta todas las líneas en las que no puede haber error
+<=>
+no reporta que puede haber error en líneas en las que no puede haber error

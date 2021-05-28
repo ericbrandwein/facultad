@@ -1,0 +1,160 @@
+public class A extends java.lang.Object
+{
+/*A.java*/
+/*[inner=A$Cell, outer=A, name=Cell,flags=10]*/
+/*soot.tagkit.InnerClassAttribute@6fd09733*/
+
+/*0*/
+    public void <init>()
+    {
+        A this;
+
+        this := @this: A;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+/*1*/
+/*this has reaching def: this := @this: A*/
+
+        return;
+/*1*/
+    }
+
+/*2*/
+    public static int main(java.lang.String[])
+    {
+        java.lang.String[] args;
+        int $stack3, $stack4, c, a#7;
+        byte a;
+
+        args := @parameter0: java.lang.String[];
+
+        a = 8;
+/*3*/
+
+        $stack3 = lengthof args;
+/*4*/
+/*args has reaching def: args := @parameter0: java.lang.String[]*/
+
+        if $stack3 <= 2 goto label1;
+/*4*/
+/*$stack3 has reaching def: $stack3 = lengthof args*/
+
+        a = 5;
+/*5*/
+
+     label1:
+        c = 1;
+/*7*/
+/*7*/
+
+     label2:
+        if c > a goto label3;
+/*8*/
+/*c has reaching def: c = 1*/
+/*c has reaching def: c = c + c*/
+/*a has reaching def: a = 8*/
+/*a has reaching def: a = 5*/
+
+        c = c + c;
+/*9*/
+/*c has reaching def: c = 1*/
+/*c has reaching def: c = c + c*/
+/*c has reaching def: c = 1*/
+/*c has reaching def: c = c + c*/
+
+        goto label2;
+/*9*/
+
+     label3:
+        a#7 = c - a;
+/*11*/
+/*c has reaching def: c = 1*/
+/*c has reaching def: c = c + c*/
+/*a has reaching def: a = 8*/
+/*a has reaching def: a = 5*/
+
+        $stack4 = a#7 + 0;
+/*13*/
+/*a#7 has reaching def: a#7 = c - a*/
+
+        return $stack4;
+/*13*/
+/*$stack4 has reaching def: $stack4 = a#7 + 0*/
+    }
+
+/*16*/
+    public int exercise2(int, int)
+    {
+        A this;
+        int a, b, c, d, r;
+
+        this := @this: A;
+
+        a := @parameter0: int;
+
+        b := @parameter1: int;
+
+        c = a + b;
+/*17*/
+/*a has reaching def: a := @parameter0: int*/
+/*b has reaching def: b := @parameter1: int*/
+
+        d = a - b;
+/*18*/
+/*a has reaching def: a := @parameter0: int*/
+/*b has reaching def: b := @parameter1: int*/
+
+        if a >= b goto label1;
+/*20*/
+/*a has reaching def: a := @parameter0: int*/
+/*b has reaching def: b := @parameter1: int*/
+
+        r = c;
+/*21*/
+/*c has reaching def: c = a + b*/
+
+        goto label2;
+/*21*/
+
+     label1:
+        r = d;
+/*23*/
+/*d has reaching def: d = a - b*/
+
+     label2:
+        return r;
+/*25*/
+/*r has reaching def: r = c*/
+/*r has reaching def: r = d*/
+    }
+
+/*28*/
+    public int exercise3(A$Cell, A$Cell)
+    {
+        A this;
+        A$Cell c1, c2;
+        int $stack3;
+
+        this := @this: A;
+
+        c1 := @parameter0: A$Cell;
+
+        c2 := @parameter1: A$Cell;
+
+        c1.<A$Cell: int value> = 1;
+/*29*/
+/*c1 has reaching def: c1 := @parameter0: A$Cell*/
+
+        c2.<A$Cell: int value> = 2;
+/*30*/
+/*c2 has reaching def: c2 := @parameter1: A$Cell*/
+
+        $stack3 = c1.<A$Cell: int value>;
+/*31*/
+/*c1 has reaching def: c1 := @parameter0: A$Cell*/
+
+        return $stack3;
+/*31*/
+/*$stack3 has reaching def: $stack3 = c1.<A$Cell: int value>*/
+    }
+}

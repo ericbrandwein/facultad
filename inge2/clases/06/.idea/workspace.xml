@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="536ed7df-01ce-439f-abf3-25711fb55282" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1c9A2JzCZGeifvhABC8GCH6xxAv" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/Data/Android" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../talleres/3" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+      <recent name="main" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="RepOkTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="06" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RepOkTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.RepOkTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="536ed7df-01ce-439f-abf3-25711fb55282" name="Default Changelist" comment="" />
+      <created>1589930226605</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589930226605</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="551" y="79" width="807" height="830" key="#All_in_06" timestamp="1589930994489">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="551" y="79" width="807" height="830" key="#All_in_06/0.0.1920.1080@0.0.1920.1080" timestamp="1589930994489" />
+    <state x="337" y="130" width="1030" height="840" key="#Project_Structure" timestamp="1589930795111">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="337" y="130" width="1030" height="840" key="#Project_Structure/0.0.1920.1080@0.0.1920.1080" timestamp="1589930795111" />
+    <state x="397" y="22" width="1124" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589933309952">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="397" y="22" width="1124" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1589933309952" />
+    <state x="675" y="164" width="530" height="438" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1589933186265">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="675" y="164" width="530" height="438" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1589933186265" />
+    <state x="731" y="300" width="433" height="263" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1589933144603">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="731" y="300" width="433" height="263" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1080@0.0.1920.1080" timestamp="1589933144603" />
+    <state x="740" y="366" key="#com.intellij.refactoring.move.moveInstanceMethod.MoveInstanceMethodDialog" timestamp="1589933493611">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="740" y="366" key="#com.intellij.refactoring.move.moveInstanceMethod.MoveInstanceMethodDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1589933493611" />
+    <state x="728" y="166" width="430" height="479" key="FileChooserDialogImpl" timestamp="1590104962037">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="728" y="166" width="430" height="479" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1590104962037" />
+    <state width="1874" height="357" key="GridCell.Tab.0.bottom" timestamp="1589949459290">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="357" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1589949459290" />
+    <state width="1874" height="357" key="GridCell.Tab.0.center" timestamp="1589949459290">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="357" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1589949459290" />
+    <state width="1874" height="357" key="GridCell.Tab.0.left" timestamp="1589949459290">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="357" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1589949459290" />
+    <state width="1874" height="357" key="GridCell.Tab.0.right" timestamp="1589949459290">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="357" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1589949459290" />
+    <state width="1874" height="357" key="GridCell.Tab.1.bottom" timestamp="1589949459291">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="357" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1589949459291" />
+    <state width="1874" height="357" key="GridCell.Tab.1.center" timestamp="1589949459291">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="357" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1589949459291" />
+    <state width="1874" height="357" key="GridCell.Tab.1.left" timestamp="1589949459290">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="357" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1589949459290" />
+    <state width="1874" height="357" key="GridCell.Tab.1.right" timestamp="1589949459291">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="357" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1589949459291" />
+    <state x="533" y="136" width="1030" height="840" key="SettingsEditor" timestamp="1589933295678">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="533" y="136" width="1030" height="840" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1589933295678" />
+    <state x="928" y="381" width="589" height="223" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1589930777603">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="928" y="381" width="589" height="223" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1080@0.0.1920.1080" timestamp="1589930777603" />
+    <state x="1207" y="269" width="448" height="406" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1589933259016">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1207" y="269" width="448" height="406" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1589933259016" />
+    <state x="672" y="116" width="530" height="492" key="extract.method.dialog" timestamp="1589941758426">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="672" y="116" width="530" height="492" key="extract.method.dialog/0.0.1920.1080@0.0.1920.1080" timestamp="1589941758426" />
+    <state x="332" y="223" width="1245" height="541" key="new project wizard" timestamp="1589930871646">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="332" y="223" width="1245" height="541" key="new project wizard/0.0.1920.1080@0.0.1920.1080" timestamp="1589930871646" />
+    <state x="1100" y="237" key="run.anything.popup" timestamp="1589930281522">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1100" y="237" key="run.anything.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1589930281522" />
+    <state x="623" y="217" width="672" height="678" key="search.everywhere.popup" timestamp="1589936003291">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="623" y="217" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1589936003291" />
+  </component>
+</project>

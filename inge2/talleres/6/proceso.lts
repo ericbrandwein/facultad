@@ -1,0 +1,4 @@
+
+PROCESO2 = (entrar->END | salir->PROCESO2).
+
+assert NOMBRE = ([]<>(entrar))

@@ -1,0 +1,84 @@
+// Ejercicio 1
+
+ENCUENTRO = (hola->conversar->adios->END).
+
+TRABAJO = (llego->trabajo->parto->END).
+
+MOVIMIENTO = (adelante->ADELANTE),
+ADELANTE = (derecha->MOVIMIENTO | izquierda->END).
+
+COIN = (flip->tails->COIN | flip->heads->COIN).
+
+CUATROTICKS = (tick->tick->tick->tick->END).
+
+DOBLE = (in[x:1..3]->out[2*x]->DOBLE).
+
+// Ejercicio 2
+const N = 3
+range R = 0..N
+VARIABLE = READ[0],
+READ[o:R] = (read[o]->READ[o] | write[n:R]->READ[n]).
+
+// Ejercicio 3
+SENSOR = SENSOR_NORMAL[5],
+SENSOR_NORMAL[x:2..8] = (
+	sense[x+1]->CHECK_HIGH[x+1] |
+	sense[x-1]->CHECK_LOW[x-1] |
+	sense[x]->SENSOR_NORMAL[x]
+),
+CHECK_HIGH[x:0..8] = SENSOR_NORMAL[x], 
+CHECK_HIGH[9] = (high->SENSOR_HIGH),
+SENSOR_HIGH = (sense[9]->SENSOR_HIGH | sense[8]->NORMAL_TRANSITION[8]),
+CHECK_LOW[x:2..9] = SENSOR_NORMAL[x],
+CHECK_LOW[x:0..1] = (low->SENSOR_LOW[x]),
+SENSOR_LOW[x:0..1] = (
+	when x == 1 sense[2]->NORMAL_TRANSITION[2] |
+	sense[y:0..1]->SENSOR_LOW[y]
+),
+NORMAL_TRANSITION[x:2..8] = (normal->SENSOR_NORMAL[x]).
+
+// Ejercicio 4
+ESCRITOR = (write[R]->ESCRITOR).
+
+LECTOR = (read[x:R]->LECTOR[x]),
+LECTOR[0] = LECTOR,
+LECTOR[x:1..N] = (imprimir[x]->LECTOR).
+
+||EJ4 = (ESCRITOR || LECTOR || VARIABLE).
+
+// Ejercicio 5
+ENTRADA = (entry->ENTRADA).
+
+SALIDA = (exit->SALIDA).
+
+DIRECTOR = DIRECTOR_CERRADO,
+DIRECTOR_CERRADO = (open->DIRECTOR_ABIERTO),
+DIRECTOR_ABIERTO = (close->empty->DIRECTOR_CERRADO).
+
+CONTROL = (open->CONTROL_OPEN[0]),
+CONTROL_OPEN[x:R] = (
+	when x > 0 exit->CONTROL_OPEN[x-1] |
+	when x < N entry->CONTROL_OPEN[x+1] |
+	close->CONTROL_CLOSE[x]
+),
+CONTROL_CLOSE[x:1..N] = (exit->CONTROL_CLOSE[x-1]),
+CONTROL_CLOSE[0] = (empty->CONTROL).
+
+||EJ5 = (ENTRADA || SALIDA || DIRECTOR || CONTROL).
+
+// Ejercicio 6
+Ssecuencial = (a->c->B | c->a->B),
+B = (b->Ssecuencial).
+||EJ6a = Ssecuencial.
+
+// Supongo que lo que se pide es que R limite las trazas a las que tienen
+// una 'a' inmediatamente antes de una 'b'.
+REJ6 = (c->a->REJ6).
+||EJ6b = (EJ6a || REJ6).
+
+T = (c->d->T | c->T).
+||EJ6c = (EJ6a || T).
+
+
+
+
