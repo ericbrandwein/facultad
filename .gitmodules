@@ -37,3 +37,6 @@
 [submodule "tleng/tp"]
 	path = tleng/tp
 	url = git@github.com:ericbrandwein/cara-de-cocou.git
+[submodule "tcomp/simple-las-bolas"]
+	path = tcomp/simple-las-bolas
+	url = git@git.exactas.uba.ar:ebrandwein/simple-las-bolas.git
