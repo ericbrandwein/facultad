@@ -1,0 +1,4 @@
+https://arxiv.org/abs/1201.3091 - neighborhood diversity
+https://arxiv.org/pdf/1308.2858.pdf - modular width
+https://link.springer.com/chapter/10.1007/978-3-642-28050-4_21 - twin cover
+https://www.sciencedirect.com/science/article/abs/pii/S0020019021000326 - local linear set, twin cover

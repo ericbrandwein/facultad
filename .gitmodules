@@ -40,3 +40,9 @@
 [submodule "tcomp/simple-las-bolas"]
 	path = tcomp/simple-las-bolas
 	url = git@git.exactas.uba.ar:ebrandwein/simple-las-bolas.git
+[submodule "doctorado/demos"]
+	path = doctorado/demos
+	url = git@github.com:ericbrandwein/demos.git
+[submodule "doctorado/thinness"]
+	path = doctorado/thinness
+	url = git@github.com:ericbrandwein/thinness.git
