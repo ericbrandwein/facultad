@@ -46,3 +46,6 @@
 [submodule "doctorado/thinness"]
 	path = doctorado/thinness
 	url = git@github.com:ericbrandwein/thinness.git
+[submodule "Ayudantia/concursos/po-ay1-2023"]
+	path = Ayudantia/concursos/po-ay1-2023
+	url = git@github.com:ericbrandwein/po-ay1-2023.git
