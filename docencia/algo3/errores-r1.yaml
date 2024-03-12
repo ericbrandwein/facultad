@@ -1,0 +1,61 @@
+1:
+    a):
+        No suma los votos de la ciudad en la que empieza: [157]
+    c):
+        No comparó con hacer backtracking: [178]
+        No menciona complejidad: [157]
+2:
+    a):
+        No dice cómo encontrar los puentes en común: [122]
+        Marca los puentes de los caminos de Sf y Sa, pero después no dice cómo encontrar los que comparten: [135]
+        Asume que Sf es ancestro de Sa o viceversa: [178, 87, 74]
+        Dice que es suficiente que uno de los dos tenga un puente a Sc: [72]
+        Dice que hay que encontrar los puentes entre Sa y Sf: [157]
+    b):
+        No especifica cómo calcula la dp: [157]
+        Hace la dp pero no dice cómo encontrar la respuesta: [122, 134, 30, 157]
+        No dice la complejidad final: [122]
+        Entendió que había que separar a Sf y Sa??: [88]
+        No tiene en cuenta los que están arriba del puente: [72]
+        No justifica su algoritmo: [72]
+    c):
+        No da vuelta el resultado del BFS: [157, 135]
+3:
+    a):
+        Asume que G es disconexo: [88]
+        No toma en cuenta que puede haber repetidas: [134, 178, 88, 72, 94]
+        Dice que sacar las aristas repetidas es O(m) pero no dice cómo: [122]
+        Dice que armar el grafo cuesta O(m): [22, 88]
+        No define el costo de las aristas de C': [122, 74]
+        Se fija que sea conexo pero no dice cómo: [72]
+        Corre DFS/BFS sobre el AGM para ver si es conexo: [22, 115, 178, 88, 168, 79]
+        Cuenta los nodos del AGM para ver si tiene todos: [23]
+        Se fija si todas las aristas tocan a todos los nodos para ver si es conexo: [135]
+        No dice cuál es la respuesta del algoritmo: [120]
+        Dice que algo es O(n) y después no lo toma en cuenta al final: [134, 178, 88]
+        Dice que le dijeron que n <= m: [122]
+        Dice que asume que n <= m: [91, 168]
+        Deduce mal que n <= m: [79, 75, 94]
+        No dice qué pasa si no se pueden conectar: [134, 88]
+        No justifica su algoritmo: [87, 72]
+    b):
+        Asume que todos los ciclos de T U e tienen a e: [88]
+        Interpreta un circuito como un ciclo sin demostrar que es simple: [88]
+        No demuestra que el ciclo es único: [22, 23, 115, 119, 122, 91, 87, 168, 74, 94]
+        No demuestra que al sacar la arista queda conexo: [23, 122, 87, 74]
+        Asume que hay que sacar sí o sí una arista del ciclo para que quede conexo: [178, 87, 168, 74]
+        Dice que como |E(G)| = |V(G)| - 1, queda conexo: [72]
+        Asume que T es un AGM: [122]
+        No demuestra que al sacar la arista máxima el árbol queda mínimo: [88, 87, 72]
+        Dice que al sacar la arista máxima del ciclo, el costo es más chico que el de T: [87]
+    c):
+        No se fija que la arista que saca esté en un ciclo: [168]
+        Dice que agregar x aristas crea exactamente x ciclos: [122]
+        Asume que todas las aristas del árbol son de N: [22, 122, 30, 91, 88, 87, 79, 72, 135]
+        No se da cuenta de que la arista de mayor peso puede ser la que agregaste de X: [31]
+        No se da cuenta de que la arista que agregó puede ya estar en el árbol: [31, 23, 120, 122, 134, 30, 88, 87, 79, 72, 135, 94]
+        No dice cómo calcular las aristas del ciclo: [31, 134, 88, 87, 72, 135]
+        Dice que va subiendo por los padres de los nodos para encontrar el primero que compartan pero no dice cómo: [122]
+        Dice que se usa DFS para encontrar las aristas del ciclo pero no dice cómo: [22, 23, 79]
+        No dice cuál es la respuesta del algoritmo: [72]
+        No justifica: [72]
