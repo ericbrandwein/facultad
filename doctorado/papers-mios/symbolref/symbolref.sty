@@ -1,0 +1,30 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{symbolref}[2024/04/20 Make your symbols link to their definitions]
+
+\RequirePackage{hyperref}
+\RequirePackage{xspace}
+
+
+\newcommand{\fixedHypertarget}[2]{%
+    \raisebox{1.2\ht\strutbox}{\hypertarget{#1}{}}#2%
+}
+
+\newcommand{\defineWord}[1]{%
+    \fixedHypertarget{#1}{#1\xspace}%
+}
+
+\newcommand{\refWord}[1]{%
+    \protect\hyperlink{#1}{#1}\xspace%
+}
+
+\newcommand{\defineSymbol}[2]{% #1: name, #2: symbol
+    \newcounter{#1}%
+    \expandafter\newcommand\csname #1\endcsname{\hyperlink{#1}{#2}}%
+    \fixedHypertarget{#1}{$#2$}%
+}
+
+\newcommand{\redefineSymbol}[2]{% #1: name, #2: symbol
+    \stepcounter{#1}%
+    \expandafter\renewcommand\csname #1\endcsname{\hyperlink{#1\arabic{#1}}{#2}}%
+    \fixedHypertarget{#1\arabic{#1}}{$#2$}%
+}

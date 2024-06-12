@@ -1,0 +1,120 @@
+\documentclass[12pt]{article}
+%=======================================================================
+%% Uncomment at most one of the babel commands below if you do NOT    %%
+%% want to use US English                                             %%
+%%--------------------------------------------------------------------%%
+%\usepackage[british]{babel}
+%\usepackage[portuguese]{babel}
+%\usepackage[spanish]{babel}
+%=====================================
+%% The amssymb package provides various useful mathematical symbols
+\usepackage{amssymb}
+
+
+\newcommand{\FPT}{\textsf{\textup{FPT}}}
+\newcommand{\XP}{\textsf{\textup{XP}} }
+\newcommand{\NP}{\textsf{\textup{NP}}}
+\renewcommand{\P}{\textsf{\textup{P}}}
+
+%=====================================
+\begin{document}
+\pagestyle{empty}
+%=====================================
+\begin{center}
+\Large
+%
+{\bf Parameterized algorithms for thinness via the cluster module number }\\[0.2in]
+%
+\large
+%
+Flavia Bonomo $^{1,2}$\hspace{.2cm}
+%
+%IMPORTANT: the asterisk * indicates the author who will present the work.
+%
+Eric Brandwein $^{1,*}$\hspace{.2cm}
+%
+Ignasi Sau $^3$\hspace{.2cm}
+
+%
+$^1$ Universidad de Buenos Aires, Facultad de Ciencias Exactas y Naturales, Departamento de Computación, Buenos Aires, Argentina. \texttt{\{fbonomo,ebrandwein\}@dc.uba.ar} \\
+%
+$^2$ CONICET-Universidad de Buenos Aires. Instituto de Investigación en Ciencias de la
+Computación (ICC), Buenos Aires, Argentina.\\
+%
+$^3$ LIRMM, Université de Montpellier, CNRS, Montpellier, France.
+\texttt{ignasi.sau@lirmm.fr}\\
+
+\end{center}
+%=======================================
+\normalsize
+%
+\line(1,0){390}\\
+%
+{\it Keywords: Thinness -- Vertex cover -- Cluster module number -- Parameterized complexity -- Graph parameters -- Polynomial kernels.}\\
+%
+\line(1,0){390}\\
+%==========================================
+%The field of Parameterized Complexity aims to provide a more fine-grained analysis of the computational complexity of problems. In this context, a parameterized problem is said to be fixed-parameter tractable (\FPT) if it can be solved in time $f(k) \cdot n^{O(1)}$, where $k$ is the parameter and $f$ is an arbitrary computable function, and it is said to be in \XP if it can be solved in time $f(k) \cdot n^{f(k)}$. A \emph{kernelization} (or \emph{kernel}) for a parameterized problem is a polynomial-time algorithm that transforms each input $(x, k)$ into an \emph{equivalent} instance $(x', k')$ such that $|x'|, k' \leq g(k)$ for some computable function $g$, which is the \emph{size} of the kernel.
+%
+In 2007, Mannino et al. defined $k$-thin graphs as a generalization of interval graphs, and defined the thinness of a graph to be the minimum $k$ such that the graph is $k$-thin. When given a $k$-thin representation of a graph, several \NP-complete problems can be solved in \XP time parameterized by $k$. Thus, the problem of computing the thinness of a graph, as well as the corresponding representation, has various algorithmic applications. In this work we define a new graph parameter that we call the {\em cluster module number} of a graph, which generalizes twin-cover and neighborhood diversity, and can be computed in linear time. We then present a linear kernel for the problem of calculating the thinness on graphs with bounded cluster module number. As a corollary, this results in a linear kernel for \textsc{Thinness} when the input graph has bounded neighborhood diversity, and exponential kernels when the input graph has bounded twin-cover or vertex cover. On the negative side, we observe that  \textsc{Thinness} parameterized by treewidth, pathwidth, bandwidth, (linear) mim-width, clique-width, modular-width, or the thinness itself, has no polynomial kernel assuming $\textsf{NP} \not\subseteq \textsf{coNP} / \textsf{poly}$.
+
+
+
+
+
+%=========================================
+\end{document}\documentclass[12pt]{article}
+%=======================================================================
+%% Uncomment at most one of the babel commands below if you do NOT    %%
+%% want to use US English                                             %%
+%%--------------------------------------------------------------------%%
+%\usepackage[british]{babel}
+%\usepackage[portuguese]{babel}
+%\usepackage[spanish]{babel}
+%=====================================
+%% The amssymb package provides various useful mathematical symbols
+\usepackage{amssymb}
+%=====================================
+\begin{document}
+\pagestyle{empty}
+%=====================================
+\begin{center}
+\Large
+%
+{\bf Sample Abstract for LAWCG 2024 }\\[0.2in]
+%
+\large
+%
+Author 1 $^{1,*}$\hspace{.2cm}
+%
+%IMPORTANT: the asterisk * indicates the author who will present the work.
+%
+Author 2 $^2$\hspace{.2cm}
+%
+
+%
+$^1$ Filiation author 1 \\
+%
+$^2$ Filiation author 2\\
+%
+
+\end{center}
+%=======================================
+\normalsize
+%
+\line(1,0){390}\\
+%
+{\it Keywords: .....}\\
+%
+\line(1,0){390}\\
+%==========================================
+
+Here goes the abstract.  The complete abstract must be at most 1 page
+long. 
+
+
+
+
+
+%=========================================
+\end{document}
