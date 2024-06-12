@@ -1,0 +1,47 @@
+\ProvidesPackageRCS $Header: /cvsroot/latex-beamer/latex-beamer/themes/theme/beamerthemeDC.sty,v 1.0 2006/03/10 18:02:12 $
+
+\mode<presentation>
+
+\usepackage{pgf}
+\usepackage{colortbl}
+
+\definecolor{dgreen}{cmyk}{1,0,0.31,0.24}
+\definecolor{lgreen}{cmyk}{0.38,0,0.15,0}
+
+\usecolortheme[cmyk={1,0,0.31,0.24}]{structure}
+\useoutertheme{split}
+\usecolortheme{dc}
+
+\setbeamercolor*{titlelike}{parent=structure}
+
+\setbeamertemplate{navigation symbols}{}
+\setbeamercovered{dynamic}
+
+\pgfdeclareimage[height=\paperheight]{logodc}{logo}
+
+\usebackgroundtemplate{\pgfuseimage{logodc}}
+
+
+\AtBeginSection[]{
+{
+    % \usebackgroundtemplate{
+    %     \begin{tikzpicture}
+    %     \fill [color = lgreen!50]
+    %       (0,0) rectangle (\paperwidth,\paperheight);
+    %   \end{tikzpicture}
+    % }
+    \begin{frame}
+    \vfill
+    \centering
+    \begin{beamercolorbox}[sep=8pt,right,shadow=true,rounded=true]{title}
+    \usebeamercolor{title}{\huge \insertsectionhead}\par%
+    \end{beamercolorbox}
+    \vfill
+    \end{frame}
+}
+}
+
+
+
+\mode
+<all>
