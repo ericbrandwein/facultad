@@ -55,3 +55,9 @@
 [submodule "docencia/tda/repo-git"]
 	path = docencia/tda/repo-git
 	url = git@git.exactas.uba.ar:materias/tda.git
+[submodule "doctorado/genpet"]
+	path = doctorado/genpet
+	url = git@github.com:ericbrandwein/genpet.git
+[submodule "doctorado/graph-thinness"]
+	path = doctorado/graph-thinness
+	url = git@github.com:ericbrandwein/graph-thinness.git
