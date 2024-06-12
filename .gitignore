@@ -4,3 +4,9 @@ __pycache__
 *.aux
 *.log
 *.synctex.gz
+*.toc
+*.snm
+*.out
+*.nav
+*.blg
+*.bbl
