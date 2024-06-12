@@ -1,0 +1,25 @@
+1. Mala organizacion
+    1.1. Aviso con poca antelación de si el parcial está aprobado para saber si se hace recu
+    1.2. No se sabia si el recu se iba a pasar a la semana siguiente o no
+    1.3. No se tenian las notas antes de la primera fecha de final
+    1.4. Se comprimieron 3 semanas seguidas de parcial y recuperatorios
+2. Parciales muy dificiles, casi todos fueron a recu
+3. Parciales con consignas largas y confusas
+4. Se tomaron demostraciones que no se vieron tanto en la materia, verlo en algebra 1 no es suficiente
+5. Poco desarrollo de algunos temas, por ejemplo complejidad
+6. Demasiadas clases de greedy que no se tomó
+7. Poco tiempo para los parciales
+8. El juez no te da los casos bordes que fallan, asi que no sabes por que no funca tu codigo
+9. Enunciados poco claros, y poco claras las respuestas a consultas de enunciado
+10. Poca preparacion de demostraciones en las clases teoricas, mucho tiempo quedándose pensando
+11. Minimo de 3 alumnos en las teoricas
+12. Es bueno subir las diapos antes de empezar la clase
+13. "(Los ayudantes de la tarde en los parciales) se ponian a hablar a los gritos con gente que terminaba el parcial (o ni siquiera tenia que rendir, y vaya uno a saber porqué, no tenian mejor plan que quedarse ahi) y te ignoraban completamente al ir a consultar." 
+14. Difícil hacer consultas en clase por mucha gente
+15. Poco espacio de pizarrón para las prácticas
+16. Se tardaba días en responder en el discord
+17. Buena idea los kahoots
+18. "reducir 3-SAT a subset sum NO es una buena introduccion a como hacer reducciones polinomiales"
+19. "Es decir, estaremos de acuerdo que alguien que sepa los temas que se evaluan deberia aprobar un parcial. Solo 11 aprobaron el primero. 2 opciones: Solo 11 personas de 200 saben los temas o se evaluo mal."
+20. " PD: que es eso de poner a una alumna a recibir los examenes de los compañeros? que situacion rara, y que ridiculo ser alumna y quedarte a recibir examenes, ademas de comentar sobre los mismos."
+21. "Me pareció una falta de respeto hacia los estudiantes haber enviado las notas de los primeros recuperatorios menos de 24 horas antes del segundo recuperatorio, haciéndonos gastar tiempo estudiando para el segundo recuperatorio sin saber si lo vamos a poder dar o no"
