@@ -52,3 +52,6 @@
 [submodule "aprendizaje-automatico/aa-tp1"]
 	path = aprendizaje-automatico/aa-tp1
 	url = git@github.com:ericbrandwein/aa-tp1.git
+[submodule "docencia/tda/repo-git"]
+	path = docencia/tda/repo-git
+	url = git@git.exactas.uba.ar:materias/tda.git
