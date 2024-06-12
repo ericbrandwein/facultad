@@ -61,3 +61,6 @@
 [submodule "doctorado/graph-thinness"]
 	path = doctorado/graph-thinness
 	url = git@github.com:ericbrandwein/graph-thinness.git
+[submodule "doctorado/charlas/diapos-workshop-sinfin-2024"]
+	path = doctorado/charlas/diapos-workshop-sinfin-2024
+	url = git@github.com:ericbrandwein/SINFIN-workshop-2024.git
